@@ -1,0 +1,46 @@
+{
+    "extensions": {},
+    "astNode": {
+        "kind": "SchemaDefinition",
+        "operationTypes": [
+            {
+                "kind": "OperationTypeDefinition",
+                "type": {
+                    "kind": "NamedType",
+                    "name": {
+                        "kind": "Name",
+                        "value": "Query",
+                        "loc": {
+                            "start": 14,
+                            "end": 19
+                        }
+                    }
+                },
+                "operation": "query"
+            }
+        ]
+    },
+    "extensionASTNodes": [],
+    "_queryType": "Query",
+    "_directives": [
+        "@include",
+        "@skip",
+        "@deprecated",
+        "@specifiedBy"
+    ],
+    "_typeMap": {
+        "Query": "Query",
+        "String": "String",
+        "Boolean": "Boolean",
+        "__Schema": "__Schema",
+        "__Type": "__Type",
+        "__TypeKind": "__TypeKind",
+        "__Field": "__Field",
+        "__InputValue": "__InputValue",
+        "__EnumValue": "__EnumValue",
+        "__Directive": "__Directive",
+        "__DirectiveLocation": "__DirectiveLocation"
+    },
+    "_subTypeMap": {},
+    "_implementationsMap": {}
+}
